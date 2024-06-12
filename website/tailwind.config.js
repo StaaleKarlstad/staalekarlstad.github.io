@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'special-elite': ['Special Elite', 'cursive'],
+        'museo-moderno': ['"Museo Moderno"', 'sans-serif'],
       },
     },
   },
