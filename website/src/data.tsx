@@ -26,7 +26,7 @@ export const projects = [{
     title: "Handl",
     subtitle: "React, C#, .NET, PostGres",
     description:
-      "Application for creating and managing shopping list. Currently in development",
+      "Application for creating and managing shopping lists. Currently in development",
     image: "./src/assets/handl.png",
     link: "",
   }]
@@ -36,6 +36,6 @@ export const skills = ["Python", "Java", "Typescript", "React", "Tailwind CSS", 
 export const drawings = ["./src/assets/adventurer_web.jpg", 
                         "./src/assets/debug_earth_web.jpg", 
                         "./src/assets/woman_web.jpg", 
-                        "./src/assets/Wednesday_web.jpg"]
+                        "./src/assets/pearl_earring.jpeg"]
 
 export const music = []
