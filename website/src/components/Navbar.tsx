@@ -11,22 +11,28 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
+          <a href="#projects" className="mr-5 hover:text-orange-300">
             Past Work
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="mr-5 hover:text-orange-300">
             Skills
+          </a>
+          <a href="#drawings" className="mr-5 hover:text-orange-300">
+            Drawings
+          </a>
+          <a href="#skills" className="mr-5 hover:text-orange-300">
+            Music
           </a>
         </nav>
         <div className="flex items-center ml-auto">
-          <a href="https://www.linkedin.com/in/st%C3%A5le-karlstad-a56556289/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 ml-3">
+          <a href="https://www.linkedin.com/in/st%C3%A5le-karlstad-a56556289/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-300 ml-3 hidden lg:block">
             <AiFillLinkedin className="w-6 h-6" />
           </a>
-          <a href="https://www.instagram.com/thesepaperplanets/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 ml-3">
-            <AiFillInstagram className="w-6 h-6" />
-          </a>
-          <a href="https://github.com/StaaleKarlstad" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 ml-3">
+          <a href="https://github.com/StaaleKarlstad" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-300 ml-3 hidden lg:block">
             <AiFillGithub className="w-6 h-6" />
+          </a>
+          <a href="https://www.instagram.com/thesepaperplanets/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-300 ml-3 hidden lg:block">
+            <AiFillInstagram className="w-6 h-6" />
           </a>
         </div>
       </div>
