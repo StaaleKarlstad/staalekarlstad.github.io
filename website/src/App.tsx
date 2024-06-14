@@ -9,7 +9,7 @@ import Drawings from './components/Drawings.tsx'
 function App() {
 
   return (
-    <main className="text-gray-400 bg-slate-950 body-font">
+    <main className="bg-black body-font">
       <Navbar></Navbar>
       <About></About>
       <Projects></Projects>

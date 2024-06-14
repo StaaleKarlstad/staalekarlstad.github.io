@@ -18,28 +18,39 @@ export default function Drawings() {
   };
 
   return (
-    <section id="drawings" className="text-gray-400 bg-gray-900 body-font">
+    <section id="drawings" className="text-gray-400 bg-black body-font">
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Text Section */}
-          <div className="text-center lg:text-left mb-20 lg:mb-0">
-            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <div className="text-center lg:text-left mb-20 lg:mb-0 py-24">
+            <h1 className="sm:text-4xl text-3xl font-extrabold title-font text-white mb-4">
               Drawing
             </h1>
-            <p className="text-4xl leading-relaxed xl:w-2/3 lg:w-full mx-auto lg:mx-0">
-              Drawing was my first true passion in life, and it has followed me for about 25 years. Check out my Instagram for more.
+            <br></br>
+            <p className="text-2xl leading-relaxed lg:w-full mx-auto lg:mx-0 italic">
+              “I sometimes think there is nothing so delightful as drawing.” <br></br><b>Vincent van Gogh</b>
+            </p>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p className="text-2xl leading-relaxed lg:w-full mx-auto lg:mx-0">
+            Drawing allows you to deeply engage with the world around you, 
+            while also providing an escape from it.
+            It invites us to study light, colours, perspective, anatomy, composition and more.
+            I really can't get enough of it!<br></br> Feel free to visit my instagram to see more.
+            
             </p>
             <a
               href="https://www.instagram.com/thesepaperplanets/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-orange-300 inline-block mt-4"
+              className="inline-block mt-4"
             >
-              <AiFillInstagram className="w-6 h-6" />
+              <AiFillInstagram className="w-10 h-10 text-gray-400 hover:text-orange-300" />
             </a>
           </div>
           {/* Images Section */}
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4 py-20">
             {drawings.map((drawing) => (
               <div key={drawing} className="relative cursor-pointer" onClick={() => handleImageClick(drawing)}>
                 <div className="w-full h-48 overflow-hidden">

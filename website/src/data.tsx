@@ -7,29 +7,29 @@ export const projects = [{
     link: "https://git.app.uib.no/microissant/project-gluten",
   },
   {
-    title: "Catch exploration",
-    subtitle: "Python and SciKit-learn",
-    description:
-      "Pre prossessing of a data set and training different machine learning models. School project",
-    image: "./src/assets/catch_machine_learning.png",
-    link: "https://github.com/StaaleKarlstad/INFO284",
-  },
-  {
-    title: "Personal website",
-    subtitle: "React TS and Tailwind CSS",
-    description:
-      "The website you are currently on",
-    image: "./src/assets/personal_website_img.png",
-    link: "https://github.com/StaaleKarlstad/personal-website",
-  },
-  {
     title: "Handl",
     subtitle: "React, C#, .NET, PostGres",
     description:
       "Application for creating and managing shopping lists. Currently in development",
     image: "./src/assets/handl.png",
     link: "",
-  }]
+  },
+  {
+    title: "Personal website",
+    subtitle: "React TS and Tailwind CSS",
+    description:
+    "The website you are currently on",
+    image: "./src/assets/personal_website_img.png",
+    link: "https://github.com/StaaleKarlstad/personal-website",
+  },
+  {
+    title: "Catch exploration",
+    subtitle: "Python and SciKit-learn",
+    description:
+    "Pre prossessing of a data set and training different machine learning models. School project",
+    image: "./src/assets/catch_machine_learning.png",
+    link: "https://github.com/StaaleKarlstad/INFO284",
+  },]
 
 export const skills = ["Python", "Java", "Typescript", "React", "Tailwind CSS", "SciKit-learn"]
 

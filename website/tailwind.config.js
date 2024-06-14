@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'museo-moderno': ['"Museo Moderno"', 'sans-serif'],
+        'space-grotesk': ["Space Grotesk", 'sans-serif'],
       },
     },
   },

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-museo-moderno;
+  @apply font-space-grotesk;
 }
 
 

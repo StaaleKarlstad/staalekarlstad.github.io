@@ -1,33 +1,30 @@
 export default function About(){
     return (
-        <section id="about">
+        <section id="about" className="bg-white">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hello, I'm Ståle.
-            <br className="hidden lg:inline-block" />I like creating stuff.
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-black pb-10 mx-auto">
+            Hi, I am:
+            <br className="hidden lg:inline-block" />
           </h1>
-          <p className="mb-8 leading-relaxed">
-            I am a software developer, musician and illustrator located in Bergen, Norway. I recently finished my bachelors degree in data technology at the University of Bergen
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold text-cyan-700 mx-auto">
+            Ståle.
           </p>
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-sky-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div>
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto">
+            Developer.
+          </p>
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto">
+            Illustrator.
+          </p>
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto">
+            Musician.
+          </p>
         </div>
-        <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6 mx-auto">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded size-3/4"
             alt="hero"
-            src="./src/assets/website_portrait2.jpeg"
+            src="./src/assets/website_portrait3.jpeg"
           />
         </div>
       </div>
