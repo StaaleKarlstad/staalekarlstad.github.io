@@ -23,7 +23,7 @@ export default function Drawings() {
   };
 
   return (
-    <section id="drawings" ref={ref} className="text-gray-400 bg-black body-font">
+    <section id="drawings" ref={ref} className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Text Section */}

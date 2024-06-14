@@ -8,15 +8,15 @@ export default function Projects() {
   });
   
   return (
-    <section id="projects" ref={ref} className="text-gray-400 bg-black body-font">
+    <section id="projects" ref={ref} className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-20 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <h1 className={`sm:text-4xl text-3xl font-semibold title-font mb-4 text-white ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
+          <h1 className={`sm:text-4xl text-3xl font-semibold title-font mb-4 text-white pb-10 pt-6 ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
             Projects
           </h1>
           <p className={`lg:w-2/3 mx-auto leading-relaxed text-2xl ${inView ? 'animate-slidein300 opacity-0' : 'opacity-0'}`}>
             The thing I love most about software development is the possibility to create cool stuff.
-            I have been involved with some pretty neat projects, where I have been fortunate to work with some very skilled people.
+            I have been involved with some pretty neat projects, where I have been fortunate to work with some nice and talented people.
 
           </p>
         </div>
@@ -33,7 +33,7 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-5 w-full border-4 border-gray-800 bg-cyan-900 opacity-0 hover:opacity-85">
+                <div className="px-8 py-10 relative z-5 w-full border-4 border-orange-500 bg-cyan-900 opacity-0 hover:opacity-85">
                   <h2 className="tracking-widest text-sm title-font font-medium text-orange-500 mb-1">
                     {project.subtitle}
                   </h2>
