@@ -1,14 +1,20 @@
+import { useInView } from "react-intersection-observer";
 import { projects } from "../data";
 
 export default function Projects() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+  
   return (
-    <section id="projects" className="text-gray-400 bg-black body-font">
+    <section id="projects" ref={ref} className="text-gray-400 bg-black body-font">
       <div className="container px-5 py-20 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-4 text-white">
+          <h1 className={`sm:text-4xl text-3xl font-semibold title-font mb-4 text-white ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
             Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl">
+          <p className={`lg:w-2/3 mx-auto leading-relaxed text-2xl ${inView ? 'animate-slidein300 opacity-0' : 'opacity-0'}`}>
             The thing I love most about software development is the possibility to create cool stuff.
             I have been involved with some pretty neat projects, where I have been fortunate to work with some very skilled people.
 
@@ -19,7 +25,7 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className=" w-3/4 lg:w-1/2 w-100 p-4 mx-auto">
+              className={`w-3/4 lg:w-1/2 w-100 p-4 mx-auto ${inView ? 'animate-slidein500 opacity-0' : 'opacity-0'}`}>
               <h2 className="text-white py-5 text-2xl">{project.title}</h2>
               <div className="flex relative h-48 overflow-hidden">
                 <img

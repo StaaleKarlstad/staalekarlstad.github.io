@@ -22,6 +22,7 @@ export default {
         },
       },
       animation: {
+        slidein100: "slidein 1s ease 100ms forwards",
         slidein300: "slidein 1s ease 300ms forwards",
         slidein500: "slidein 1s ease 500ms forwards",
         slidein700: "slidein 1s ease 700ms forwards",
