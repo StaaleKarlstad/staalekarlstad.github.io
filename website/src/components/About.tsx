@@ -5,18 +5,18 @@ export default function About(){
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-black pb-10 mx-auto">
             Hi, I am:
-            <br className="hidden lg:inline-block" />
+            <br className="hidden lg:inline-block animate-slidein" />
           </h1>
-          <p className="mb-8 leading-relaxed text-4xl font-extrabold text-cyan-700 mx-auto">
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold text-cyan-700 mx-auto animate-slidein300 opacity-0">
             Ståle.
           </p>
-          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto">
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto animate-slidein500 opacity-0">
             Developer.
           </p>
-          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto">
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto animate-slidein700 opacity-0">
             Illustrator.
           </p>
-          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto">
+          <p className="mb-8 leading-relaxed text-4xl font-extrabold mx-auto animate-slidein900 opacity-0">
             Musician.
           </p>
         </div>

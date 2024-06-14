@@ -22,6 +22,9 @@ export default function Navbar() {
           <a href="#skills" className="text-white mr-5 hover:text-orange-300">
             Music
           </a>
+          <a href="#contact" className="text-white mr-5 hover:text-orange-300">
+            Contact
+          </a>
         </nav>
         <div className="flex items-center ml-auto">
           <a href="https://www.linkedin.com/in/st%C3%A5le-karlstad-a56556289/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-300 ml-3 hidden lg:block">
