@@ -45,14 +45,14 @@ export default function Drawings() {
             I really can't get enough of it!<br></br> Feel free to visit my instagram to see more.
             
             </p>
-            <a
+            {/* <a
               href="https://www.instagram.com/thesepaperplanets/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
             >
               <AiFillInstagram className="w-10 h-10 text-gray-400 hover:text-orange-300" />
-            </a>
+            </a> */}
           </div>
           {/* Images Section */}
           <div className="flex flex-col space-y-4 py-20">

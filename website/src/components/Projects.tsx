@@ -16,7 +16,7 @@ export default function Projects() {
           </h1>
           <p className={`lg:w-2/3 mx-auto leading-relaxed text-2xl ${inView ? 'animate-slidein300 opacity-0' : 'opacity-0'}`}>
             The thing I love most about software development is the possibility to create cool stuff.
-            I have been involved with some pretty neat projects, where I have been fortunate to work with some nice and talented people.
+            Below are some of the projects I've worked on
 
           </p>
         </div>
