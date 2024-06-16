@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { drawings } from "../data";
-import { AiFillInstagram } from "react-icons/ai";
 import Modal from "./Modal";
 import { useInView } from "react-intersection-observer";
 
