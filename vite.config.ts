@@ -3,9 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/staalekarlstad.github.io",
+  base: "/staalekarlstad.github.io/",
   plugins: [react()],
-  build: {
-    outDir: 'dist', // Output directory for build files
-  }
 })
