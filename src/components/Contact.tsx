@@ -2,7 +2,7 @@ import { AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
 
 export default function Contact(){
     return (
-    <section id="contact" className="bg-amber-50">
+    <section id="contact" className="bg-orange-200">
         <div className="container px-5 py-10 mx-auto lg:px-40">
             <div className="flex flex-wrap text-4xl font-bold">
                 Email me: stalekarlstad@gmail.com

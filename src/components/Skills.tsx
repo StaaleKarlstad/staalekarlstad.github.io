@@ -9,7 +9,7 @@ export default function Skills() {
   });
 
   return (
-    <section id="skills" ref={ref} className='bg-amber-50'>
+    <section id="skills" ref={ref} className='bg-orange-200'>
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="text-center mb-20">
           <h1 className={`sm:text-4xl text-3xl title-font font-bold text-black mb-4 pt-10 ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
