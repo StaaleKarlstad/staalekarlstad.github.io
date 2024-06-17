@@ -24,7 +24,7 @@ export default function About(){
           <img
             className="object-cover object-center rounded size-3/4"
             alt="hero"
-            src="./src/assets/website_portrait3.jpeg"
+            src="/website_portrait3.jpeg"
           />
         </div>
       </div>
