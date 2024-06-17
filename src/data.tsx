@@ -3,7 +3,7 @@ export const projects = [{
     subtitle: "Java",
     description:
       "Rouge like mini-game. Group project for school.",
-    image: "./src/assets/buncharted_screenshot_01.png",
+    image: "/buncharted_screenshot_01.png",
     link: "https://git.app.uib.no/microissant/project-gluten",
   },
   {
@@ -11,7 +11,7 @@ export const projects = [{
     subtitle: "React, C#, .NET, PostGres",
     description:
       "Application for creating and managing shopping lists. Currently in development",
-    image: "./src/assets/handl.png",
+    image: "/handl.png",
     link: "",
   },
   {
@@ -19,7 +19,7 @@ export const projects = [{
     subtitle: "React TS and Tailwind CSS",
     description:
     "The website you are currently on",
-    image: "./src/assets/personal_website_img.png",
+    image: "/personal_website_img.png",
     link: "https://github.com/StaaleKarlstad/personal-website",
   },
   {
@@ -27,15 +27,15 @@ export const projects = [{
     subtitle: "Python and SciKit-learn",
     description:
     "Pre prossessing of a data set and training different machine learning models. School project",
-    image: "./src/assets/catch_machine_learning.png",
+    image: "/catch_machine_learning.png",
     link: "https://github.com/StaaleKarlstad/INFO284",
   },]
 
 export const skills = ["Python", "Java", "Typescript", "React", "Tailwind CSS", "SciKit-learn"]
 
-export const drawings = ["./src/assets/adventurer_web.jpg", 
-                        "./src/assets/debug_earth_web.jpg", 
-                        "./src/assets/woman_web.jpg", 
-                        "./src/assets/pearl_earring.jpeg"]
+export const drawings = ["/adventurer_web.jpg", 
+                        "/debug_earth_web.jpg", 
+                        "/woman_web.jpg", 
+                        "/pearl_earring.jpeg"]
 
 export const music = []
