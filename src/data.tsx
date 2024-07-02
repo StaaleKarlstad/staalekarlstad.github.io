@@ -28,7 +28,7 @@ export const projects = [{
     description:
     "Pre prossessing of a data set and training different machine learning models. School project",
     image: "/catch_machine_learning.png",
-    link: "https://github.com/StaaleKarlstad/INFO284",
+    link: "https://github.com/StaaleKarlstad/INFO284/blob/develop/Notebooks/GroupExamINFO284.ipynb",
   },]
 
 export const skills = ["Python", "Java", "Typescript", "React", "Tailwind CSS", "SciKit-learn"]
