@@ -19,6 +19,9 @@ export default function Navbar() {
           <a href="#drawings" className="text-white mr-5 text-lg hover:text-cyan-200">
             Drawings
           </a>
+          <a href="#music" className="text-white mr-5 text-lg hover:text-cyan-200">
+            Music
+          </a>
           <a href="#contact" className="text-white mr-5 text-lg hover:text-cyan-200">
             Contact
           </a>
@@ -30,7 +33,7 @@ export default function Navbar() {
           <a href="https://github.com/StaaleKarlstad" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-200 ml-3 hidden lg:block">
             <AiFillGithub className="w-6 h-6" />
           </a>
-          <a href="https://www.instagram.com/thesepaperplanets/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-200 ml-3 hidden lg:block">
+          <a href="https://www.instagram.com/stonkyart/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-200 ml-3 hidden lg:block">
             <AiFillInstagram className="w-6 h-6" />
           </a>
         </div>
