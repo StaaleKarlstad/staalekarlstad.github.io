@@ -39,7 +39,7 @@ export const projects = [
     link: "https://github.com/StaaleKarlstad/personal-website",
   },
   {
-    title: "- -- - -- Catch exploration -- - -- -",
+    title: "-- - -- Catch exploration -- - --",
     subtitle: "Python, SciKit-learn, Jupyter Notebook",
     description: "This school project offered hands-on experience with training and evaluating machine learning models. Using data from Norwegian fishing boat records, we aimed to predict the expected fish catch weight for each operation. This was a collaborative project with another student",
     image: "./catch_machine_learning.png",

@@ -10,11 +10,11 @@ export default function Projects() {
   return (
     <section id="projects" ref={ref} className=" bg-gray-900 body-font">
       <div className="container px-5 py-20 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20 bg-orange-700 shadow-lg shadow-black">
-          <h1 className={`sm:text-4xl text-9xl font-bold title-font mb-4 text-black pb-10 pt-6 ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
+        <div className="flex flex-col w-full mb-20 bg-orange-700 shadow-lg shadow-black py-10 px-10">
+          <h1 className={`text-3xl sm:text-4xl font-bold title-font mb-4 text-black pb-10 pt-6 ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
           -  --- -- - --   PROJECTS   -- - -- - ---  -
           </h1>
-          <p className={`text-left text-black lg:w-2/3 mx-auto leading-relaxed text-2xl ${inView ? 'animate-slidein300 opacity-0' : 'opacity-0'}`}>
+          <p className={`text-left text-black lg:w-2/3 mx-auto leading-relaxed text-2xl font-extrabold ${inView ? 'animate-slidein300 opacity-0' : 'opacity-0'}`}>
           What I love most about software development is the freedom to bring cool ideas to life. Below are some of my projects, including both academic and personal work. Hover over each project for a description, and click to view the GitHub repository (except for Handl, which is currently unavailable).
 
           </p>

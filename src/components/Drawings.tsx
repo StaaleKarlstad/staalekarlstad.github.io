@@ -35,7 +35,7 @@ export default function Drawings() {
                 inView ? "animate-slidein100 opacity-0" : "opacity-0"
               }`}
             >
-              DRAWING -- - --- -  - -- - --- - 
+              DRAWING -- - --
             </h1>
             <br></br>
             <p
