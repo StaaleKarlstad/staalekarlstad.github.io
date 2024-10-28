@@ -46,7 +46,7 @@ export const projects = [
     link: "https://github.com/StaaleKarlstad/INFO284/blob/develop/Notebooks/GroupExamINFO284.ipynb",
   },]
 
-export const skills = ["Java Spring Boot","React/Typescript", "Python", "CSS", "HTML", "Docker", "SciKit-learn", "Figma", "Postman"]
+export const skills = ["Java Spring Boot","React/ Typescript", "Python", "CSS", "HTML", "Docker", "SciKit-learn", "Figma", "Postman"]
 
 export const drawings = ["./adventurer_web.jpg", 
                         "./debug_earth_web.jpg", 
