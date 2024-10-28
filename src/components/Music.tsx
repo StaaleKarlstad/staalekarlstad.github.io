@@ -37,7 +37,7 @@ export default function Music() {
             <img
               className="object-cover object-center rounded size-3/4"
               alt="hero"
-              src="/byting_konsert7.jpg"
+              src="./byting_konsert7.jpg"
             />
             <p className="italic py-4">
               High energy and good vibes at Tromsø <br></br> Countryfestival
