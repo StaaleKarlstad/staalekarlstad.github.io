@@ -35,7 +35,7 @@ export default function Drawings() {
                 inView ? "animate-slidein100 opacity-0" : "opacity-0"
               }`}
             >
-              Drawing
+              DRAWING -- - --- -  - -- - --- - 
             </h1>
             <br></br>
             <p
@@ -58,8 +58,8 @@ export default function Drawings() {
               Drawing allows you to deeply engage with the world around you,
               while also providing an escape from it. It invites us to study
               light, colours, perspective, anatomy, composition and more. I
-              really can't get enough of it!<br></br> Feel free to visit my
-              instagram to see more.
+              really can't get enough of it!<br/><br/><br/> Click on an image to enlarge
+              it and feel free to visit my instagram to see more!
             </p>
           </div>
 

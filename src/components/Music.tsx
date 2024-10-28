@@ -13,7 +13,7 @@ export default function Music() {
             inView ? "animate-slidein100 opacity-0" : "opacity-0"
           }`}
         >
-          Music
+          MUSIC  -- - --- -  - -- - --- -  -- - --- 
         </h1>
         <div className="items-center gap-7 grid md:grid-flow-col lg:md:grid-flow-col grid-flow-row">
           <p

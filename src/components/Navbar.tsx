@@ -9,7 +9,7 @@ export default function Navbar() {
             Ståle Karlstad
           </a>
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-white flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="text-white mr-5 text-lg hover:text-cyan-200">
             Projects
           </a>
