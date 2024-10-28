@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.tsx'
 import Skills from './components/Skills.tsx'
 import Projects from './components/Projects.tsx'
 import Drawings from './components/Drawings.tsx'
+import Music from './components/Music.tsx'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Projects></Projects>
       <Skills></Skills>
       <Drawings></Drawings>
+      <Music></Music>
       <Contact></Contact>
     
     </main>
