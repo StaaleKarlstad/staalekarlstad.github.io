@@ -15,7 +15,7 @@ export default function Music() {
         >
           Music
         </h1>
-        <div className="items-center gap-7 grid grid-flow-col">
+        <div className="items-center gap-7 grid md:grid-flow-col lg:md:grid-flow-col grid-flow-row">
           <p
             className={`mb-8 px-8 leading-relaxed text-2xl font-extrabold text-black mx-auto animate-slidein300 opacity-0 ${
               inView ? "animate-slidein100 opacity-0" : "opacity-0"
@@ -30,7 +30,7 @@ export default function Music() {
           </p>
 
           <div
-            className={`lg:max-w-md lg:w-full md:w-1/2 w-5/6 mx-auto object-center px-8 ${
+            className={`lg:max-w-md lg:w-full md:max-w-md md:w-full w-5/6 mx-auto object-center px-8 ${
               inView ? "animate-slidein100 opacity-0" : "opacity-0"
             }`}
           >
