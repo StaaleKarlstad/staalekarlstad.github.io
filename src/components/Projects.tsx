@@ -14,9 +14,8 @@ export default function Projects() {
           <h1 className={`sm:text-4xl text-3xl font-semibold title-font mb-4 text-white pb-10 pt-6 ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
             Projects
           </h1>
-          <p className={`lg:w-2/3 mx-auto leading-relaxed text-2xl ${inView ? 'animate-slidein300 opacity-0' : 'opacity-0'}`}>
-            The thing I love most about software development is the possibility to create cool stuff.
-            Below are some of the projects I've worked on
+          <p className={`text-left lg:w-2/3 mx-auto leading-relaxed text-2xl ${inView ? 'animate-slidein300 opacity-0' : 'opacity-0'}`}>
+          What I love most about software development is the freedom to bring cool ideas to life. Below are some of my projects, including both academic and personal work. Hover over each project for a description, and click to view the GitHub repository (except for Handl, which is currently unavailable).
 
           </p>
         </div>
@@ -25,20 +24,20 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className={`w-3/4 lg:w-1/2 w-100 p-4 mx-auto ${inView ? 'animate-slidein500 opacity-0' : 'opacity-0'}`}>
+              className={`min-h-[500px] flex-grow w-3/4 lg:w-3/4 p-4 mx-auto ${inView ? 'animate-slidein500 opacity-0' : 'opacity-0'}`}>
               <h2 className="text-white py-5 text-2xl">{project.title}</h2>
-              <div className="flex relative h-48 overflow-hidden">
+              <div className="flex relative h-80 overflow-hidden">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-auto object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-5 w-full border-4 border-orange-500 bg-cyan-900 opacity-0 hover:opacity-85">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-orange-500 mb-1">
+                <div className="px-8 py-10 relative z-5 w-full border-4 border-orange-500 bg-cyan-900 opacity-0 hover:opacity-95">
+                  <h2 className="tracking-widest text-2xl title-font font-medium text-orange-500 mb-1">
                     {project.subtitle}
                   </h2>
                 
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed text-white lg:text-xl md:text-lg py-8 text-left text-sm">{project.description}</p>
                 </div>
               </div>
             </a>
