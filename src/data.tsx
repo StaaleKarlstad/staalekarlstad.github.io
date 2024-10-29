@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "- -- - -- Buncharted -- - -- -",
     subtitle: "Java, Logic x",
-    description: "In this wild roguelike shooter, you play as an armed robot chef tasked with eradicating evil pastries in the cake dimension! Are you the right robot for the task? This game was a collaborative school project with a team of four. Along with programming, I had the opportunity to compose the music.",
+    description: "In this wild roguelike shooter, you play as an armed robot chef tasked with eradicating evil pastries in the cake dimension! Are you the right robot for the task? This game was a collaborative school project with a team of four. Along with programming, I had the opportunity to do sound design and compose the music.",
     image: "./buncharted_screenshot_01.png",
     link: "https://git.app.uib.no/microissant/project-gluten",
   },
