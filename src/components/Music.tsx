@@ -13,7 +13,7 @@ export default function Music() {
             inView ? "animate-slidein100 opacity-0" : "opacity-0"
           }`}
         >
-          MUSIC  -- - --- -
+          MUSIC -- - --- -
         </h1>
         <div className="items-center gap-7 grid md:grid-flow-col lg:md:grid-flow-col grid-flow-row">
           <p
@@ -23,11 +23,11 @@ export default function Music() {
           >
             I once got myself a degree in music, and I have been putting it to
             use ever since. Over the years I have played plenty of awesome gigs,
-            participated in exciting session work and I've gotten a lot of experience in music production in my favourite DAW, Logic. 
-            I even got to
-            work two summers as a music teacher in China! You will usually find
-            me rocking out on the electric bass, but I also sing, play guitar
-            and piano.
+            participated in exciting session work and I've obtained a lot of
+            experience in music production using Logic. I even got to work two
+            summers as a music teacher in China! You will usually find me
+            rocking out on the electric bass, but I also sing, play guitar and
+            piano.
           </p>
 
           <div
