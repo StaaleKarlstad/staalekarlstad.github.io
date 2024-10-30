@@ -29,7 +29,7 @@ export default function Drawings() {
     >
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="text-center lg:text-left mb-20 lg:mb-0 py-24">
+          <div className="text-center lg:text-left md:mb-20 lg:mb-0 md:py-24">
             <h1
               className={`sm:text-4xl text-3xl font-extrabold title-font text-white mb-4 ${
                 inView ? "animate-slidein100 opacity-0" : "opacity-0"
@@ -39,7 +39,7 @@ export default function Drawings() {
             </h1>
             <br></br>
             <p
-              className={`text-2xl leading-relaxed lg:w-full mx-auto lg:mx-0 italic ${
+              className={`md:text-2xl text-xl leading-relaxed lg:w-full mx-auto lg:mx-0 italic ${
                 inView ? "animate-slidein100 opacity-0" : "opacity-0"
               }`}
             >
@@ -51,15 +51,18 @@ export default function Drawings() {
             <br></br>
             <br></br>
             <p
-              className={`text-2xl leading-relaxed lg:w-full mx-auto lg:mx-0 ${
+              className={`md:text-2xl text-l leading-relaxed lg:w-full mx-auto lg:mx-0 ${
                 inView ? "animate-slidein300 opacity-0" : "opacity-0"
               }`}
             >
               Drawing allows you to deeply engage with the world around you,
               while also providing an escape from it. It invites us to study
               light, colours, perspective, anatomy, composition and more. I
-              really can't get enough of it!<br/><br/><br/> Click on an image to enlarge
-              it and feel free to visit my instagram to see more!
+              really can't get enough of it!
+              <br />
+              <br />
+              <br /> Click on an image to enlarge it and feel free to visit my
+              instagram to see more!
             </p>
           </div>
 

@@ -9,17 +9,17 @@ export default function Music() {
     <section id="music" ref={ref} className="bg-orange-200">
       <div className="container mx-auto px-10 py-20 md:flex-row items-center">
         <h1
-          className={`sm:text-4xl text-3xl font-extrabold title-font text-black mb-4 px-8 ${
+          className={`sm:text-4xl text-xl font-extrabold title-font text-black mb-4 px-8 ${
             inView ? "animate-slidein100 opacity-0" : "opacity-0"
           }`}
         >
           MUSIC -- - --- -
         </h1>
-        <div className="items-center gap-7 grid md:grid-flow-col lg:md:grid-flow-col grid-flow-row">
-          <p
-            className={`mb-8 px-8 leading-relaxed text-2xl font-extrabold text-black mx-auto animate-slidein300 opacity-0 ${
+        <div className={`items-center gap-7 grid md:grid-flow-col lg:md:grid-flow-col grid-flow-row ${
               inView ? "animate-slidein100 opacity-0" : "opacity-0"
-            }`}
+            }`}>
+          <p
+            className={`mb-8 md:px-8 leading-relaxed md:text-2xl md:font-extrabold text-l text-black mx-auto`}
           >
             I once got myself a degree in music, and I have been putting it to
             use ever since. Over the years I have played plenty of awesome gigs,
@@ -31,7 +31,7 @@ export default function Music() {
           </p>
 
           <div
-            className={`lg:max-w-md lg:w-full md:max-w-md md:w-full w-5/6 mx-auto object-center px-8 ${
+            className={`max-w-md w-full md:max-w-md md:w-full mx-auto object-center md:px-8 ${
               inView ? "animate-slidein100 opacity-0" : "opacity-0"
             }`}
           >
@@ -47,11 +47,11 @@ export default function Music() {
           </div>
         </div>
         <hr className="border-t-2 border-black my-10" />
-          <div className='py-10'>
-            <h3 className='mb-8 px-8 text-2xl font-extrabold text-black mx-auto'>
+          <div className={`py-10`}>
+            <h3 className='mb-8 md:px-8 text-2xl font-extrabold text-black mx-auto'>
               Hear some of my music in the snippet below
             </h3>
-            <video controls className='py-8 px-8 lg:w-5/6'>
+            <video controls className='md:py-8 md:px-8 lg:w-5/6'>
               <source src='./Buncharted-ScreenRec.mp4' type="video/mp4" />
               Your browser does not support the video tag.
             </video>
