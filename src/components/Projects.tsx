@@ -34,11 +34,11 @@ export default function Projects() {
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-5 w-full border-4 border-orange-500 bg-cyan-900 opacity-0 hover:opacity-95">
-                  <h2 className="tracking-widest text-2xl title-font font-medium text-orange-500 mb-1">
+                  <h2 className="tracking-widest md:text-2xl text-sm title-font font-medium text-orange-500 mb-1">
                     {project.subtitle}
                   </h2>
                 
-                  <p className="leading-relaxed text-white lg:text-xl md:text-lg py-8 text-left text-sm">{project.description}</p>
+                  <p className="leading-relaxed text-white lg:text-xl md:text-lg py-8 text-left text-xs">{project.description}</p>
                 </div>
               </div>
               <hr className="border-t-2 border-orange-500 my-20 mx-20" />
