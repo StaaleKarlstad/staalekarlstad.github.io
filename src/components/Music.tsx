@@ -46,6 +46,16 @@ export default function Music() {
             </p>
           </div>
         </div>
+        <hr className="border-t-2 border-black my-10" />
+          <div className='py-10'>
+            <h3 className='mb-8 px-8 text-2xl font-extrabold text-black mx-auto'>
+              Hear some of my music in the snippet below
+            </h3>
+            <video controls className='py-8 px-8 lg:w-5/6'>
+              <source src='./Buncharted-ScreenRec.mp4' type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
       </div>
     </section>
   );
