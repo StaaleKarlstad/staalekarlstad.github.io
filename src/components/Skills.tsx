@@ -13,7 +13,7 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="text-center mb-20">
           <h1 className={`sm:text-4xl text-3xl title-font font-bold text-black mb-4 pt-10 ${inView ? 'animate-slidein100 opacity-0' : 'opacity-0'}`}>
-           -- SKILLS &amp; TECHNOLOGIES -- 
+           -- SKILLS -- 
           </h1>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
